@@ -1,0 +1,76 @@
+//en_US Localization File - Universal Singularities
+
+//Vanilla
+item.universalSingularities.vanilla.coal.name=Coal Singularity
+item.universalSingularities.vanilla.diamond.name=Diamond Singularity
+item.universalSingularities.vanilla.emerald.name=Emerald Singularity
+//Vanilla
+
+//General
+item.universalSingularities.general.aluminum.name=Aluminum Singularity
+item.universalSingularities.general.brass.name=Brass Singularity
+item.universalSingularities.general.bronze.name=Bronze Singularity
+item.universalSingularities.general.electrum.name=Electrum Singularity
+item.universalSingularities.general.invar.name=Invar Singularity
+item.universalSingularities.general.osmium.name=Osmium Singularity
+item.universalSingularities.general.steel.name=Steel Singularity
+item.universalSingularities.general.zinc.name=Zinc Singularity
+item.universalSingularities.general.ruby.name=Ruby Singularity
+item.universalSingularities.general.sapphire.name=Sapphire Singularity
+item.universalSingularities.general.peridot.name=Peridot Singularity
+//General
+
+//Applied Energistics 2
+item.universalSingularities.appliedEnergistics.certus.name=Certus Quartz Singularity
+item.universalSingularities.appliedEnergistics.fluix.name=Fluix Crystal Singularity
+//Applied Energistics 2
+
+//Big Reactors
+item.universalSingularities.bigReactors.blutonium.name=Blutonium Singularity
+item.universalSingularities.bigReactors.cyanite.name=Cyanite Singularity
+item.universalSingularities.bigReactors.graphite.name=Graphite Singularity
+item.universalSingularities.bigReactors.ludicrite.name=Ludicrite Singularity
+item.universalSingularities.bigReactors.yellorium.name=Yellorium Singularity
+//Big Reactors
+
+//Botania
+item.universalSingularities.botania.manasteel.name=Manasteel Singularity
+item.universalSingularities.botania.terrasteel.name=Terrasteel Singularity
+//Botania
+
+//Draconic Evolution
+item.universalSingularities.draconicEvolution.awakenedDraconium.name=Awakened Draconium Singularity
+//Draconic Evolution
+
+//Ender IO
+item.universalSingularities.enderIO.conductiveIron.name=Conductive Iron Singularity
+item.universalSingularities.enderIO.electricalSteel.name=Electrical Steel Singularity
+item.universalSingularities.enderIO.energeticAlloy.name=Energetic Alloy Singularity
+item.universalSingularities.enderIO.darkSteel.name=Dark Steel Singularity
+item.universalSingularities.enderIO.pulsatingIron.name=Pulsating Iron Singularity
+item.universalSingularities.enderIO.redstoneAlloy.name=Redstone Alloy Singularity
+item.universalSingularities.enderIO.solarium.name=Solarium Singularity
+item.universalSingularities.enderIO.vibrantAlloy.name=Vibrant Alloy Singularity
+//Ender IO
+
+//Metallurgy 4
+item.universalSingularities.metallurgy.tartarite.name=Tartarite Singularity
+//Metallurgy 4
+
+//ProjectE
+item.universalSingularities.projectE.darkMatter.name=Dark Matter Singularity
+item.universalSingularities.projectE.redMatter.name=Red Matter Singularity
+//ProjectE
+
+//Redstone Arsenal
+item.universalSingularities.redstoneArsenal.fluxCrystal.name=Flux Crystal Singularity
+//Redstone Arsenal
+
+//Tinkers' Construct
+item.universalSingularities.tinkersConstruct.aluminumBrass.name=Aluminum Brass Singularity
+item.universalSingularities.tinkersConstruct.alumite.name=Alumite Singularity
+item.universalSingularities.tinkersConstruct.ardite.name=Ardite Singularity
+item.universalSingularities.tinkersConstruct.cobalt.name=Cobalt Singularity
+item.universalSingularities.tinkersConstruct.manyullyn.name=Manyullyn Singularity
+item.universalSingularities.tinkersConstruct.pigIron.name=Pig Iron Singularity
+//Tinkers' Construct
