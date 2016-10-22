@@ -60,7 +60,7 @@ item.universalSingularities.extraTiC.red_aurum.name=RedAurum Singularity
 //ExtraTiC
 
 //Extra Utilities
-item.universalSingularities.extraUtilities.unstable=Unstable Ingot Singularity
+item.universalSingularities.extraUtilities.unstable.name=Unstable Ingot Singularity
 //Extra Utilities
 
 //Metallurgy 4
