@@ -86,7 +86,7 @@ public class CommonProxy
 						new UniversalSingularityWrapper("redMatter", "blockRedMatter", 0, 0x0, 0x0)
 				)),
 				// Redstone Arsenal Singularities
-				new UniversalSingularity("redstoneArsenal", Collections.singletonList(
+				new UniversalSingularity("redstoneArsenal", Arrays.asList(
 						new UniversalSingularityWrapper("electrumFlux", "blockElectrumFlux", 0, 0x0, 0x0),
 						new UniversalSingularityWrapper("crystalFlux", "blockCrystalFlux", 0, 0x0, 0x0)
 				)),
