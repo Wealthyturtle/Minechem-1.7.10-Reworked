@@ -73,7 +73,8 @@ item.universalSingularities.projectE.redMatter.name=Red Matter Singularity
 //ProjectE
 
 //Redstone Arsenal
-item.universalSingularities.redstoneArsenal.fluxCrystal.name=Flux Crystal Singularity
+item.universalSingularities.redstoneArsenal.electrumFlux.name=Fluxed Electrum Singularity
+item.universalSingularities.redstoneArsenal.crystalFlux.name=Flux Crystal Singularity
 //Redstone Arsenal
 
 //Tinkers' Construct
