@@ -50,6 +50,7 @@ public class CommonProxy
 						new UniversalSingularityWrapper("manasteel", "blockManasteel", 0, 0x0, 0x0),
 						new UniversalSingularityWrapper("terrasteel", "blockTerrasteel", 0, 0x0, 0x0)
 				)),
+				
 				// Draconic Evolution Singularities
 				new UniversalSingularity("draconicEvolution", Collections.singletonList(
 						new UniversalSingularityWrapper("awakenedDraconium", "blockAwakenedDraconium", 0, 0x0, 0x0)
@@ -65,6 +66,16 @@ public class CommonProxy
 						new UniversalSingularityWrapper("solarium", "blockSolarium", 0, 0x0, 0x0),
 						new UniversalSingularityWrapper("vibrantAlloy", "blockVibrantAlloy", 0, 0x0, 0x0)
 				)),
+				// ExtraTiC Singularities
+				new UniversalSingularity("extraTiC", Arrays.asList(
+						new UniversalSingularityWrapper("fairy", "blockFairy", 0, 0x0, 0x0),
+						new UniversalSingularityWrapper("pokefennium", "blockPokefennium", 0, 0x0, 0x0),
+						new UniversalSingularityWrapper("red_aurum", "blockRed_aurum", 0, 0x0, 0x0)
+				)),
+				// Extra Utilities Singularities
+				new UniversalSingularity("extraUtilities", Collections.singletonList(
+						new UniversalSingularityWrapper("unstable", "blockUnstable", 0, 0x0, 0x0)
+				)),
 				// Metallurgy Singularities
 				new UniversalSingularity("metallurgy", Collections.singletonList(
 						new UniversalSingularityWrapper("tartarite", "blockTartarite", 0, 0x0, 0x0)
@@ -76,7 +87,8 @@ public class CommonProxy
 				)),
 				// Redstone Arsenal Singularities
 				new UniversalSingularity("redstoneArsenal", Collections.singletonList(
-						new UniversalSingularityWrapper("fluxCrystal", "blockFluxCrystal", 0, 0x0, 0x0)
+						new UniversalSingularityWrapper("electrumFlux", "blockElectrumFlux", 0, 0x0, 0x0),
+						new UniversalSingularityWrapper("crystalFlux", "blockCrystalFlux", 0, 0x0, 0x0)
 				)),
 				// Tinkers' Construct Singularities
 				new UniversalSingularity("tinkersConstruct", Arrays.asList(
