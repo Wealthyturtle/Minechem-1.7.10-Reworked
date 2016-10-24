@@ -40,9 +40,9 @@ public class CommonProxy
 				// Big Reactors Singularities
 				new UniversalSingularity("bigReactors", Arrays.asList(
 						new UniversalSingularityWrapper("blutonium", "blockBlutonium", 0, 0x4642D6, 0x1B00E6),
-						new UniversalSingularityWrapper("cyanite", "blockCyanite", 0, 0x5CAFDB, 0x3DAAFF),
-						new UniversalSingularityWrapper("graphite", "blockGraphite", 0, 0x686868, 0x525252),
-						new UniversalSingularityWrapper("ludicrite", "blockLudicrite", 0, 0xD15CD7, 0xC05EDB),
+						new UniversalSingularityWrapper("cyanite", "blockCyanite", 0, 0x5CAFDB, 0x0087EF),
+						new UniversalSingularityWrapper("graphite", "blockGraphite", 0, 0x5D5D5D, 0x444444),
+						new UniversalSingularityWrapper("ludicrite", "blockLudicrite", 0, 0xF001E8, 0xF103B1),
 						new UniversalSingularityWrapper("yellorium", "blockYellorium", 0, 0xD9DB5C, 0xEBFF3D)
 				)),
 				// Botania Singularities
@@ -53,7 +53,7 @@ public class CommonProxy
 				
 				// Draconic Evolution Singularities
 				new UniversalSingularity("draconicEvolution", Collections.singletonList(
-						new UniversalSingularityWrapper("awakenedDraconium", "blockAwakenedDraconium", 0, 0xFF7200, 0xFF5400)
+						new UniversalSingularityWrapper("awakenedDraconium", "blockAwakenedDraconium", 0, 0xFF7200, 0xFF6600)
 				)),
 				// Ender IO Singularities
 				new UniversalSingularity("enderIO", Arrays.asList(
@@ -70,11 +70,11 @@ public class CommonProxy
 				new UniversalSingularity("extraTiC", Arrays.asList(
 						new UniversalSingularityWrapper("fairy", "blockFairy", 0, 0xFF83C3, 0xFF65B4),
 						new UniversalSingularityWrapper("pokefennium", "blockPokefennium", 0, 0x436B73, 0x485361),
-						new UniversalSingularityWrapper("red_aurum", "blockRed_aurum", 0, 0xFF5B09, 0xFF3800)
+						new UniversalSingularityWrapper("red_aurum", "blockRed_aurum", 0, 0xFF4809, 0xFF3D09)
 				)),
 				// Extra Utilities Singularities
 				new UniversalSingularity("extraUtilities", Collections.singletonList(
-						new UniversalSingularityWrapper("unstable", "blockUnstable", 0, 0xFFFFFF, 0xF8F8F8)
+						new UniversalSingularityWrapper("unstable", "blockUnstable", 0, 0xC5C5C5, 0xB1B1B1)
 				)),
 				// Metallurgy Singularities
 				new UniversalSingularity("metallurgy", Collections.singletonList(
@@ -88,7 +88,7 @@ public class CommonProxy
 				// Redstone Arsenal Singularities
 				new UniversalSingularity("redstoneArsenal", Arrays.asList(
 						new UniversalSingularityWrapper("electrumFlux", "blockElectrumFlux", 0, 0xD0B64D, 0xA40606),
-						new UniversalSingularityWrapper("crystalFlux", "blockCrystalFlux", 0, 0xFE333A, 0x7A001B)
+						new UniversalSingularityWrapper("crystalFlux", "blockCrystalFlux", 0, 0xFE333A, 0xE8111A)
 				)),
 				// Tinkers' Construct Singularities
 				new UniversalSingularity("tinkersConstruct", Arrays.asList(
