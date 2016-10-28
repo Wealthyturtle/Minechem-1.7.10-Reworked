@@ -9,6 +9,7 @@ import net.minecraftforge.oredict.OreDictionary;
 import wealthyturtle.uiesingularities.UniversalSingularity;
 import wealthyturtle.uiesingularities.UniversalSingularityItem;
 import wealthyturtle.uiesingularities.UniversalSingularityWrapper;
+import wealthyturtle.uiesingularities.EternalSingularityItem;
 
 import javax.annotation.Nonnull;
 import java.io.File;
@@ -141,6 +142,7 @@ public class CommonProxy
 	public final void preInit()
 	{
 		singularities.forEach(singularity -> GameRegistry.registerItem(singularity, "universal." + singularity.name + ".singularity"));
+		GameRegistry.registerItem(new EternalSingularityItem(), "EternalSingularity");
 	}
 
 	public void init() {}
