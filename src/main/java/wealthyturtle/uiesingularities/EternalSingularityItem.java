@@ -10,18 +10,19 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
 
-public class EternalSingularityItem extends Item
-implements ICosmicRenderItem
+public class EternalSingularityItem
+	extends Item
+	implements ICosmicRenderItem
 {
   public static Item instance;
-private IIcon es_msk;
-  private IIcon es_pom;
+  private IIcon cosmicMask;
+  private IIcon pommel;
   
   public EternalSingularityItem()
   {
     super();
     setUnlocalizedName("eternal_singularity");
-    setTextureName(iconString);
+    setTextureName("avaritia:singularity");
     setCreativeTab(Avaritia.tab);
   }
   
@@ -33,7 +34,7 @@ private IIcon es_msk;
   @SideOnly(Side.CLIENT)
   public IIcon es_getMaskTexture(ItemStack stack, EntityPlayer player)
   {
-    return this.es_msk;
+    return this.cosmicMask;
   }
   
   @SideOnly(Side.CLIENT)
@@ -47,14 +48,14 @@ private IIcon es_msk;
   {
     super.registerIcons(es_ir);
     
-    this.es_msk = es_ir.registerIcon("universalsingularities:eternalsingularity_es_msk");
-    this.es_pom = es_ir.registerIcon("universalsingularities:eternalsingularity_es_pom");
+    this.cosmicMask = es_ir.registerIcon("universalsingularities:eternalsingularity_cosmicMask");
+    this.pommel = es_ir.registerIcon("universalsingularities:eternalsingularity_pommel");
   }
   
   public IIcon getIcon(ItemStack stack, int pass)
   {
     if (pass == 1) {
-      return this.es_pom;
+      return this.pommel;
     }
     return super.getIcon(stack, pass);
   }
