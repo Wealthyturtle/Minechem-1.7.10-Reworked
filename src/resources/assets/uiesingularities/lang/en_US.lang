@@ -1,4 +1,7 @@
 //en_US Localization File - Universal Singularities
+//Creator of Localization File: Wealthyturtle
+
+//Contact Wealthyturtle/WanionCane If You Would Like to Volunteer to Create a Localization File for Another Language.
 
 //Vanilla
 item.universalSingularities.vanilla.coal.name=Coal Singularity
@@ -10,6 +13,7 @@ item.universalSingularities.vanilla.emerald.name=Emerald Singularity
 item.universalSingularities.general.aluminum.name=Aluminum Singularity
 item.universalSingularities.general.brass.name=Brass Singularity
 item.universalSingularities.general.bronze.name=Bronze Singularity
+item.universalSingularities.general.charcoal.name=Charcoal Singularity
 item.universalSingularities.general.electrum.name=Electrum Singularity
 item.universalSingularities.general.invar.name=Invar Singularity
 item.universalSingularities.general.osmium.name=Osmium Singularity
@@ -21,8 +25,10 @@ item.universalSingularities.general.peridot.name=Peridot Singularity
 //General
 
 //Applied Energistics 2
+/*
 item.universalSingularities.appliedEnergistics.certus.name=Certus Quartz Singularity
 item.universalSingularities.appliedEnergistics.fluix.name=Fluix Crystal Singularity
+*/
 //Applied Energistics 2
 
 //Big Reactors
@@ -34,8 +40,10 @@ item.universalSingularities.bigReactors.yellorium.name=Yellorium Singularity
 //Big Reactors
 
 //Botania
+/*
 item.universalSingularities.botania.manasteel.name=Manasteel Singularity
 item.universalSingularities.botania.terrasteel.name=Terrasteel Singularity
+*/
 //Botania
 
 //Draconic Evolution
@@ -49,9 +57,19 @@ item.universalSingularities.enderIO.energeticAlloy.name=Energetic Alloy Singular
 item.universalSingularities.enderIO.darkSteel.name=Dark Steel Singularity
 item.universalSingularities.enderIO.pulsatingIron.name=Pulsating Iron Singularity
 item.universalSingularities.enderIO.redstoneAlloy.name=Redstone Alloy Singularity
-item.universalSingularities.enderIO.solarium.name=Solarium Singularity
+item.universalSingularities.enderIO.soularium.name=Soularium Singularity
 item.universalSingularities.enderIO.vibrantAlloy.name=Vibrant Alloy Singularity
 //Ender IO
+
+//ExtraTiC
+item.universalSingularities.extraTiC.fairy.name=Fairy Singularity
+item.universalSingularities.extraTiC.pokefennium.name=Pokefennium Singularity
+item.universalSingularities.extraTiC.red_aurum.name=RedAurum Singularity
+//ExtraTiC
+
+//Extra Utilities
+item.universalSingularities.extraUtilities.unstable.name=Unstable Ingot Singularity
+//Extra Utilities
 
 //Metallurgy 4
 item.universalSingularities.metallurgy.tartarite.name=Tartarite Singularity
@@ -63,7 +81,8 @@ item.universalSingularities.projectE.redMatter.name=Red Matter Singularity
 //ProjectE
 
 //Redstone Arsenal
-item.universalSingularities.redstoneArsenal.fluxCrystal.name=Flux Crystal Singularity
+item.universalSingularities.redstoneArsenal.electrumFlux.name=Fluxed Electrum Singularity
+item.universalSingularities.redstoneArsenal.crystalFlux.name=Flux Crystal Singularity
 //Redstone Arsenal
 
 //Tinkers' Construct
@@ -72,5 +91,9 @@ item.universalSingularities.tinkersConstruct.alumite.name=Alumite Singularity
 item.universalSingularities.tinkersConstruct.ardite.name=Ardite Singularity
 item.universalSingularities.tinkersConstruct.cobalt.name=Cobalt Singularity
 item.universalSingularities.tinkersConstruct.manyullyn.name=Manyullyn Singularity
-item.universalSingularities.tinkersConstruct.pigIron.name=Pig Iron Singularity
+//item.universalSingularities.tinkersConstruct.pigIron.name=Pig Iron Singularity
 //Tinkers' Construct
+
+//Eternal Singularity - OMG
+item.eternalSingularity.name=Eternal Singularity
+//Eternal Singularity - OMG
