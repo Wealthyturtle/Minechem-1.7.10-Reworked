@@ -145,7 +145,11 @@ public class CommonProxy
 	public final void preInit()
 	{
 		singularities.forEach(singularity -> GameRegistry.registerItem(singularity, "universal." + singularity.name + ".singularity"));
+<<<<<<< HEAD
 		GameRegistry.registerItem(eternalSingularity, "eternalSingularity");
+=======
+		GameRegistry.registerItem(new EternalSingularityItem(), "EternalSingularity");
+>>>>>>> origin/master
 	}
 
 	public void init() {}
