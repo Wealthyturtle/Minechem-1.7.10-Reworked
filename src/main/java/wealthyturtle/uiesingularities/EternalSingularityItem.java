@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package wealthyturtle.uiesingularities;
 
 import cpw.mods.fml.relauncher.Side;
