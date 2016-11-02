@@ -8,7 +8,6 @@ import net.minecraftforge.oredict.OreDictionary;
 import wealthyturtle.uiesingularities.UniversalSingularity;
 import wealthyturtle.uiesingularities.UniversalSingularityItem;
 import wealthyturtle.uiesingularities.UniversalSingularityWrapper;
-import wealthyturtle.uiesingularities.EternalSingularityItem;
 
 import javax.annotation.Nonnull;
 
@@ -23,7 +22,6 @@ import static java.io.File.separatorChar;
 public class CommonProxy
 {
 	protected final List<UniversalSingularityItem> singularities = new ArrayList<>();
-	protected final EternalSingularityItem eternalSingularity = new EternalSingularityItem();
 	
 	private final Map<String, Set<String>> allowed = new HashMap<>();
 
@@ -145,7 +143,6 @@ public class CommonProxy
 	public final void preInit()
 	{
 		singularities.forEach(singularity -> GameRegistry.registerItem(singularity, "universal." + singularity.name + ".singularity"));
-		GameRegistry.registerItem(eternalSingularity, "eternalSingularity");
 	}
 
 	public void init() {}
