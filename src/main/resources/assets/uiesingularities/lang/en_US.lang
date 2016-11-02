@@ -16,20 +16,18 @@ item.universalSingularities.general.bronze.name=Bronze Singularity
 item.universalSingularities.general.charcoal.name=Charcoal Singularity
 item.universalSingularities.general.electrum.name=Electrum Singularity
 item.universalSingularities.general.invar.name=Invar Singularity
+item.universalSingularities.general.magnesium.name=Magnesium Singularity
 item.universalSingularities.general.osmium.name=Osmium Singularity
-item.universalSingularities.general.steel.name=Steel Singularity
-item.universalSingularities.general.zinc.name=Zinc Singularity
-item.universalSingularities.general.ruby.name=Ruby Singularity
-item.universalSingularities.general.sapphire.name=Sapphire Singularity
 item.universalSingularities.general.peridot.name=Peridot Singularity
+item.universalSingularities.general.ruby.name=Ruby Singularity
+item.universalSingularities.general.salt.name=Salt Singularity
+item.universalSingularities.general.sapphire.name=Sapphire Singularity
+item.universalSingularities.general.steel.name=Steel Singularity
+item.universalSingularities.general.titanium.name=Titanium Singularity
+item.universalSingularities.general.tungsten.name=Tungsten Singularity
+item.universalSingularities.general.uranium.name=Uranium Singularity
+item.universalSingularities.general.zinc.name=Zinc Singularity
 //General
-
-//Applied Energistics 2
-/*
-item.universalSingularities.appliedEnergistics.certus.name=Certus Quartz Singularity
-item.universalSingularities.appliedEnergistics.fluix.name=Fluix Crystal Singularity
-*/
-//Applied Energistics 2
 
 //Big Reactors
 item.universalSingularities.bigReactors.blutonium.name=Blutonium Singularity
@@ -39,15 +37,9 @@ item.universalSingularities.bigReactors.ludicrite.name=Ludicrite Singularity
 item.universalSingularities.bigReactors.yellorium.name=Yellorium Singularity
 //Big Reactors
 
-//Botania
-/*
-item.universalSingularities.botania.manasteel.name=Manasteel Singularity
-item.universalSingularities.botania.terrasteel.name=Terrasteel Singularity
-*/
-//Botania
-
 //Draconic Evolution
-item.universalSingularities.draconicEvolution.awakenedDraconium.name=Awakened Draconium Singularity
+item.universalSingularities.draconicEvolution.draconium.name=Draconium Singularity
+//item.universalSingularities.draconicEvolution.awakenedDraconium.name=Awakened Draconium Singularity
 //Draconic Evolution
 
 //Ender IO
@@ -61,6 +53,15 @@ item.universalSingularities.enderIO.soularium.name=Soularium Singularity
 item.universalSingularities.enderIO.vibrantAlloy.name=Vibrant Alloy Singularity
 //Ender IO
 
+//ExtraPlanets
+item.universalSingularities.extraPlanets.blueGem.name=Blue Gem Singularity
+item.universalSingularities.extraPlanets.carbon.name=Carbon Singularity
+item.universalSingularities.extraPlanets.crystal.name=Crystal Singularity
+item.universalSingularities.extraPlanets.palladium.name=Palladium Singularity
+item.universalSingularities.extraPlanets.redGem.name=Red Gem Singularity
+item.universalSingularities.extraPlanets.whiteGem.name=White Gem Singularity
+//ExtraPlanets
+
 //ExtraTiC
 item.universalSingularities.extraTiC.fairy.name=Fairy Singularity
 item.universalSingularities.extraTiC.pokefennium.name=Pokefennium Singularity
@@ -72,13 +73,12 @@ item.universalSingularities.extraUtilities.unstable.name=Unstable Ingot Singular
 //Extra Utilities
 
 //Metallurgy 4
-item.universalSingularities.metallurgy.tartarite.name=Tartarite Singularity
+item.universalSingularities.metallurgy.bitumen.name=Bitumen Singularity
+item.universalSingularities.metallurgy.phosphorus.name=Phosphorus Singularity
+item.universalSingularities.metallurgy.potash.name=Potash Singularity
+item.universalSingularities.metallurgy.saltpeter.name=Saltpeter Singularity
+item.universalSingularities.metallurgy.sulfur.name=Sulfur Singularity
 //Metallurgy 4
-
-//ProjectE
-item.universalSingularities.projectE.darkMatter.name=Dark Matter Singularity
-item.universalSingularities.projectE.redMatter.name=Red Matter Singularity
-//ProjectE
 
 //Redstone Arsenal
 item.universalSingularities.redstoneArsenal.electrumFlux.name=Fluxed Electrum Singularity
@@ -90,10 +90,8 @@ item.universalSingularities.tinkersConstruct.aluminumBrass.name=Aluminum Brass S
 item.universalSingularities.tinkersConstruct.alumite.name=Alumite Singularity
 item.universalSingularities.tinkersConstruct.ardite.name=Ardite Singularity
 item.universalSingularities.tinkersConstruct.cobalt.name=Cobalt Singularity
+item.universalSingularities.tinkersConstruct.ender.name=Ender Singularity
+item.universalSingularities.tinkersConstruct.glue.name=Glue Singularity
 item.universalSingularities.tinkersConstruct.manyullyn.name=Manyullyn Singularity
 //item.universalSingularities.tinkersConstruct.pigIron.name=Pig Iron Singularity
 //Tinkers' Construct
-
-//Eternal Singularity - OMG
-item.eternalSingularity.name=Eternal Singularity
-//Eternal Singularity - OMG
