@@ -71,9 +71,9 @@ public class CommonProxy
 						new UniversalSingularityWrapper("yellorium", "blockYellorium", 75, 0xD9DB5C, 0xEBFF3D)
 				)),
 				// Draconic Evolution Singularities
-				new UniversalSingularity("draconicEvolution", Collections.singletonList(
-						new UniversalSingularityWrapper("draconium", "blockDraconium", 89, 0x8E5CC0, 0x7C4AAE)
-						//new UniversalSingularityWrapper("awakenedDraconium", "blockAwakenedDraconium", 83, 0xFF7200, 0xFF6600)
+				new UniversalSingularity("draconicEvolution", Arrays.asList(
+						new UniversalSingularityWrapper("draconium", "blockDraconium", 89, 0x8E5CC0, 0x7C4AAE),
+						new UniversalSingularityWrapper("draconiumAwakened", "blockDraconiumAwakened", 83, 0xFF7200, 0xFF6600)
 				)),
 				// Ender IO Singularities
 				new UniversalSingularity("enderIO", Arrays.asList(
@@ -98,8 +98,7 @@ public class CommonProxy
 				// ExtraTiC Singularities
 				new UniversalSingularity("extraTiC", Arrays.asList(
 						new UniversalSingularityWrapper("fairy", "blockFairy", 90, 0xFF83C3, 0xFF65B4),
-						new UniversalSingularityWrapper("pokefennium", "blockPokefennium", 71, 0x436B73, 0x485361),
-						new UniversalSingularityWrapper("red_aurum", "blockRed_aurum", 78, 0xFF4809, 0xFF3D09)
+						new UniversalSingularityWrapper("pokefennium", "blockPokefennium", 71, 0x436B73, 0x485361)
 				)),
 				// Extra Utilities Singularities
 				new UniversalSingularity("extraUtilities", Collections.singletonList(
@@ -128,6 +127,9 @@ public class CommonProxy
 						new UniversalSingularityWrapper("glue", "blockGlue", 85, 0xDBD0D0, 0xCEBFBF),
 						new UniversalSingularityWrapper("manyullyn", "blockManyullyn", 73, 0xA97DE0, 0x926AC3)
 				))
+				/*Removed
+				 *new UniversalSingularityWrapper("red_aurum", "blockRed_aurum", 78, 0xFF4809, 0xFF3D09)
+				 */
 		);
 		final Configuration config = new Configuration(new File("." + separatorChar + "config" + separatorChar + "UniversalSingularities.cfg"));
 		universalSingularities.forEach(universalSingularity -> {
