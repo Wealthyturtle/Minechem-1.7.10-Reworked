@@ -39,7 +39,7 @@ item.universalSingularities.bigReactors.yellorium.name=Yellorium Singularity
 
 //Draconic Evolution
 item.universalSingularities.draconicEvolution.draconium.name=Draconium Singularity
-//item.universalSingularities.draconicEvolution.awakenedDraconium.name=Awakened Draconium Singularity
+item.universalSingularities.draconicEvolution.draconiumAwakened.name=Awakened Draconium Singularity
 //Draconic Evolution
 
 //Ender IO
@@ -65,7 +65,6 @@ item.universalSingularities.extraPlanets.whiteGem.name=White Gem Singularity
 //ExtraTiC
 item.universalSingularities.extraTiC.fairy.name=Fairy Singularity
 item.universalSingularities.extraTiC.pokefennium.name=Pokefennium Singularity
-item.universalSingularities.extraTiC.red_aurum.name=RedAurum Singularity
 //ExtraTiC
 
 //Extra Utilities
@@ -95,3 +94,7 @@ item.universalSingularities.tinkersConstruct.glue.name=Glue Singularity
 item.universalSingularities.tinkersConstruct.manyullyn.name=Manyullyn Singularity
 //item.universalSingularities.tinkersConstruct.pigIron.name=Pig Iron Singularity
 //Tinkers' Construct
+
+/*Removed
+ *item.universalSingularities.extraTiC.red_aurum.name=RedAurum Singularity
+ */
