@@ -1,8 +1,6 @@
 package wealthyturtle.uiesingularities.proxy;
 
 import fox.spiteful.avaritia.render.FancyHaloRenderer;
-import net.minecraft.item.ItemStack;
-import net.minecraftforge.client.IItemRenderer;
 import net.minecraftforge.client.MinecraftForgeClient;
 
 public final class ClientProxy extends CommonProxy
