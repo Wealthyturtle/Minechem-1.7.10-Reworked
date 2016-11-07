@@ -106,11 +106,33 @@ public class CommonProxy
 				)),
 				// Metallurgy Singularities
 				new UniversalSingularity("metallurgy", Arrays.asList(
+						//Utility
 						new UniversalSingularityWrapper("bitumen", "blockBitumen", 93, 0x242424, 0x313131),
 						new UniversalSingularityWrapper("phosphorus", "blockPhosphorus", 87, 0xA27777, 0x8B5F5F),
 						new UniversalSingularityWrapper("potash", "blockPotash", 85, 0xEF9103, 0xDA8403),
 						new UniversalSingularityWrapper("saltpeter", "blockSaltpeter", 71, 0xF0F0F0, 0xE1E1E1),
-						new UniversalSingularityWrapper("sulfur", "blockSulfur", 66, 0xFFF200, 0xFCD703)
+						new UniversalSingularityWrapper("sulfur", "blockSulfur", 66, 0xFFF200, 0xFCD703),
+						//Alloys - Base
+						new UniversalSingularityWrapper("angmallen", "blockAngmallen", 65, 0xE1D78A, 0xD6C761),
+						new UniversalSingularityWrapper("damascusSteel", "blockDamascusSteel", 84, 0x996D4D, 0x583F2C),
+						new UniversalSingularityWrapper("hepatizon", "blockHepatizon", 82, 0x755E75, 0x614E61),
+						//Alloys - Ender
+						new UniversalSingularityWrapper("desichalkos", "blockDesichalkos", 88, 0x722FA8, 0x502176),
+						//Alloys - Fantasy
+						new UniversalSingularityWrapper("blackSteel", "blockBlackSteel", 70, 0x395679, 0x314966),
+						new UniversalSingularityWrapper("celenegil", "blockCelenegil", 81, 0x94CC48, 0x649128),
+						new UniversalSingularityWrapper("haderoth", "blockHaderoth", 72, 0x77341E, 0x592817),
+						new UniversalSingularityWrapper("quicksilver", "blockQuicksilver", 79, 0x7CD3C7, 0x2B8073),
+						new UniversalSingularityWrapper("tartarite", "blockTartarite", 83, 0xAE3400, 0x792400),
+						//Alloys - Nether
+						new UniversalSingularityWrapper("amordrine", "blockAmordrine", 68, 0xA98DB1, 0x8F6B9A),
+						new UniversalSingularityWrapper("inolashite", "blockInolashite", 67, 0x40AA7D, 0x338864),
+						new UniversalSingularityWrapper("shadowSteel", "blockShadowSteel", 77, 0x887362, 0x766354)
+						/*Important Note:
+						 * The Rest of the Metallurgy Singularities (That are Non-Utility and Non-Alloy) Can be Found if AOBD Singularities is Used.
+						 * For the Other Metallurgy Singularities to be Added, Use AOBD Singularities, with Metallurgy.
+						 * (Yes, this is a Shoutout and Semi-Collaboration with RCXcrafter, the Creator of AOBD Singularities, lol.)
+						 */
 				)),
 				// Redstone Arsenal Singularities
 				new UniversalSingularity("redstoneArsenal", Arrays.asList(
