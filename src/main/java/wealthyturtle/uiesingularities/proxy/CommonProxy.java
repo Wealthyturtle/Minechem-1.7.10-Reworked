@@ -141,7 +141,7 @@ public class CommonProxy
 				)),
 				// Redstone Arsenal Singularities
 				new UniversalSingularity("redstoneArsenal", Arrays.asList(
-						new UniversalSingularityWrapper("electrumFlux", "blockElectrumFlux", 77, 0xD0B64D, 0xA40606),
+						new UniversalSingularityWrapper("electrumFlux", "blockElectrumFlux", 77, 0xD0B64D, 0xA40606, false),
 						new UniversalSingularityWrapper("crystalFlux", "blockCrystalFlux", 76, 0xFE333A, 0xE8111A)
 				)),
 				// Tinkers' Construct Singularities
