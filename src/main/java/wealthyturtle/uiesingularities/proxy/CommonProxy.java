@@ -59,12 +59,11 @@ public class CommonProxy
 						new UniversalSingularityWrapper("osmium", "blockOsmium", 69, 0xAABACE, 0x9BABC4),
 						new UniversalSingularityWrapper("peridot", "blockPeridot", 95, 0x58A52B, 0x4E9226),
 						new UniversalSingularityWrapper("ruby", "blockRuby", 91, 0xB44848, 0x993D3D),
-						new UniversalSingularityWrapper("salt", "blockSalt", 87, 0xEFEFEF, 0xDDE7E8),
 						new UniversalSingularityWrapper("sapphire", "blockSapphire", 86, 0x5173D1, 0x466ACE),
 						new UniversalSingularityWrapper("steel", "blockSteel", 88, 0x9F9F9F, 0x888888),
 						new UniversalSingularityWrapper("titanium", "blockTitanium", 90, 0x1C242E, 0x192029, false),
 						new UniversalSingularityWrapper("tungsten", "blockTungsten", 79, 0xD6D6D6, 0xCACACA, false),
-						new UniversalSingularityWrapper("uranium", "blockUranium", 86, 0x00CB40, 0x00C43E, false),
+						new UniversalSingularityWrapper("uranium", "blockUranium", 75, 0x00CB40, 0x00C43E, false),
 						new UniversalSingularityWrapper("zinc", "blockZinc", 76, 0xBFC55C, 0x939836)
 				)),
 				// Big Reactors Singularities
@@ -155,7 +154,8 @@ public class CommonProxy
 						new UniversalSingularityWrapper("manyullyn", "blockManyullyn", 73, 0xA97DE0, 0x926AC3)
 				))
 				/*Removed
-				 *new UniversalSingularityWrapper("red_aurum", "blockRed_aurum", 78, 0xFF4809, 0xFF3D09)
+				 * new UniversalSingularityWrapper("salt", "blockSalt", 87, 0xEFEFEF, 0xDDE7E8),
+				 * new UniversalSingularityWrapper("red_aurum", "blockRed_aurum", 78, 0xFF4809, 0xFF3D09)
 				 */
 		);
 		final Configuration config = new Configuration(new File("." + separatorChar + "config" + separatorChar + "UniversalSingularities.cfg"));
