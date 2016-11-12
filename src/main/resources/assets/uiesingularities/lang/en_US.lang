@@ -1,6 +1,6 @@
 //en_US Localization File - Universal Singularities
 //Creator of Localization File: Wealthyturtle
-//Localization File Version: 5.0
+//Localization File Version: 6.0
 
 //Contact Wealthyturtle/WanionCane If You Would Like to Volunteer to Create a Localization File for Another Language.
 
@@ -21,7 +21,6 @@ item.universalSingularities.general.magnesium.name=Magnesium Singularity
 item.universalSingularities.general.osmium.name=Osmium Singularity
 item.universalSingularities.general.peridot.name=Peridot Singularity
 item.universalSingularities.general.ruby.name=Ruby Singularity
-item.universalSingularities.general.salt.name=Salt Singularity
 item.universalSingularities.general.sapphire.name=Sapphire Singularity
 item.universalSingularities.general.steel.name=Steel Singularity
 item.universalSingularities.general.titanium.name=Titanium Singularity
@@ -114,5 +113,6 @@ item.universalSingularities.tinkersConstruct.manyullyn.name=Manyullyn Singularit
 //Tinkers' Construct
 
 /*Removed
- *item.universalSingularities.extraTiC.red_aurum.name=RedAurum Singularity
+ * item.universalSingularities.general.salt.name=Salt Singularity
+ * item.universalSingularities.extraTiC.red_aurum.name=RedAurum Singularity
  */
