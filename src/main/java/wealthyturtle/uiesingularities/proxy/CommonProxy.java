@@ -214,7 +214,7 @@ public class CommonProxy
 			}
 		});
 		if (coalSingularityEasterEgg && allowed.containsKey("vanilla") && allowed.get("vanilla").contains("coal"))
-			GameRegistry.registerFuelHandler(new CoalSingularityFuelHandler(getSingularityByName("vanilla"), 16000 * CompressorManager.getCost(new ItemStack(Blocks.coal_block))));
+			GameRegistry.registerFuelHandler(new CoalSingularityFuelHandler(getSingularityByName("vanilla")));
 	}
 
 	public UniversalSingularityItem getSingularityByName(@Nonnull final String name)
@@ -230,10 +230,10 @@ public class CommonProxy
 		private final UniversalSingularityItem vanillaSingularity;
 		private final int burnTime;
 
-		private CoalSingularityFuelHandler(@Nonnull final UniversalSingularityItem vanillaSingularity, final int burnTime)
+		private CoalSingularityFuelHandler(@Nonnull final UniversalSingularityItem vanillaSingularity)
 		{
 			this.vanillaSingularity = vanillaSingularity;
-			this.burnTime = burnTime;
+			this.burnTime = 16000 * CompressorManager.getCost(new ItemStack(Blocks.coal_block));
 		}
 
 		@Override
