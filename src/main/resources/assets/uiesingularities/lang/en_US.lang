@@ -1,6 +1,6 @@
 //en_US Localization File - Universal Singularities
 //Creator of Localization File: Wealthyturtle
-//Localization File Version: 6.0
+//Localization File Version: 7.0
 
 //Contact Wealthyturtle/WanionCane If You Would Like to Volunteer to Create a Localization File for Another Language.
 
@@ -71,6 +71,11 @@ item.universalSingularities.extraTiC.pokefennium.name=Pokefennium Singularity
 item.universalSingularities.extraUtilities.unstable.name=Unstable Ingot Singularity
 //Extra Utilities
 
+//Mekanism
+item.universalSingularities.mekanism.refinedGlowstone.name=Refined Glowstone Singularity
+item.universalSingularities.mekanism.refinedObsidian.name=Refined Obsidian Singularity
+//Mekanism
+
 //Metallurgy 4
 //Utility
 item.universalSingularities.metallurgy.bitumen.name=Bitumen Singularity
@@ -95,6 +100,14 @@ item.universalSingularities.metallurgy.amordrine.name=Amordrine Singularity
 item.universalSingularities.metallurgy.inolashite.name=Inolashite Singularity
 item.universalSingularities.metallurgy.shadowSteel.name=Shadow Steel Singularity
 //Metallurgy 4
+
+//PneumaticCraft
+item.universalSingularities.pneumaticCraft.compressedIron.name=Compressed Iron Singularity
+//PneumaticCraft
+
+//ProjectRed
+item.universalSingularities.projectRed.electrotine.name=Electrotine Singularity
+//ProjectRed
 
 //Redstone Arsenal
 item.universalSingularities.redstoneArsenal.electrumFlux.name=Fluxed Electrum Singularity
