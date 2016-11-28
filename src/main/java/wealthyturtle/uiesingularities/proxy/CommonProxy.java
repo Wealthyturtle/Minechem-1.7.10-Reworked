@@ -113,6 +113,11 @@ public class CommonProxy
 				new UniversalSingularity("extraUtilities", Collections.singletonList(
 						new UniversalSingularityWrapper("unstable", "blockUnstable", 67, 0xC5C5C5, 0xB1B1B1)
 				)),
+				// Mekanism Singularities
+				new UniversalSingularity("mekanism", Arrays.asList(
+						new UniversalSingularityWrapper("refinedGlowstone", "blockRefinedGlowstone", 67, 0xF4D036, 0xDBA622),
+						new UniversalSingularityWrapper("refinedObsidian", "blockRefinedObsidian", 82, 0x57456F, 0x53426A)
+				)),
 				// Metallurgy Singularities
 				new UniversalSingularity("metallurgy", Arrays.asList(
 						//Utility
@@ -142,6 +147,14 @@ public class CommonProxy
 						 * For the Other Metallurgy Singularities to be Added, Use AOBD Singularities, with Metallurgy.
 						 * (Yes, this is a Shoutout and Semi-Collaboration with RCXcrafter, the Creator of AOBD Singularities, lol.)
 						 */
+				)),
+				// PneumaticCraft Singularities
+				new UniversalSingularity("pneumaticCraft", Collections.singletonList(
+						new UniversalSingularityWrapper("compressedIron", "blockIronCompressed", 93, 0x636363, 0x515151, false)
+				)),
+				// ProjectRed Singularities
+				new UniversalSingularity("projectRed", Collections.singletonList(
+						new UniversalSingularityWrapper("electrotine", "blockElectrotine", 67, 0x0F4985, 0x0D3F72)
 				)),
 				// Redstone Arsenal Singularities
 				new UniversalSingularity("redstoneArsenal", Arrays.asList(
@@ -242,4 +255,3 @@ public class CommonProxy
 			return fuel != null && fuel.getItem() == vanillaSingularity && fuel.getItemDamage() == 0 ? burnTime : 0;
 		}
 	}
-}
