@@ -12,7 +12,7 @@ import net.minecraft.item.Item;
 public class TwilightForestPortalCatalyst {
 	
 	public static final String modid = "TwilightForestPortalCatalyst";
-	public static final String version = "1.0";
+	public static final String version = "2.0";
 	
 	public static Item itemTwilightForestPortalCatalyst;
 	
