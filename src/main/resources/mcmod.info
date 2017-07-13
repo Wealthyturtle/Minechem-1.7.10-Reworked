@@ -1,0 +1,16 @@
+[
+{
+  "modid": "minechem",
+  "name": "Minechem",
+  "description": "Custom Build of Minechem Made by Wealthyturtle",
+  "version": "1.0 (Based off Minechem 5.0.5.394)",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Minechem Developers and Contributors, Wealthyturtle, RCXCrafter"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
