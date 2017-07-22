@@ -56,7 +56,9 @@ public final class RenderingUtil
             case nonmetal:
                 GL11.glColor3f(1.0F, 0.5F, 0.0F);
                 break;
-            case otherMetal:
+            //Wealthyturtle Injection Begin
+            case postTransitionMetal:
+            //Wealthyturtle Injection End
                 GL11.glColor3f(0.5F, 1.0F, 0.0F);
                 break;
             case semimetallic:

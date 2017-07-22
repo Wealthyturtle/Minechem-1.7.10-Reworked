@@ -16,7 +16,7 @@ import static minechem.item.element.ElementClassificationEnum.halogen;
 import static minechem.item.element.ElementClassificationEnum.inertGas;
 import static minechem.item.element.ElementClassificationEnum.lanthanide;
 import static minechem.item.element.ElementClassificationEnum.nonmetal;
-import static minechem.item.element.ElementClassificationEnum.otherMetal;
+import static minechem.item.element.ElementClassificationEnum.postTransitionMetal;
 import static minechem.item.element.ElementClassificationEnum.semimetallic;
 import static minechem.item.element.ElementClassificationEnum.transitionMetal;
 import minechem.radiation.RadiationEnum;
@@ -47,8 +47,9 @@ public class ElementEnum extends MinechemChemicalType
     public static final ElementEnum Ne = addElement(10, "Ne", "Neon", inertGas, gas, stable);//Done
     public static final ElementEnum Na = addElement(11, "Na", "Sodium", alkaliMetal, solid, stable);//Done
     public static final ElementEnum Mg = addElement(12, "Mg", "Magnesium", alkalineEarthMetal, solid, stable);//Done
-    public static final ElementEnum Al = addElement(13, "Al", "Aluminium", otherMetal, solid, stable);//Alloy
-    public static final ElementEnum Si = addElement(14, "Si", "Silicon", otherMetal, solid, stable);//Done
+	//Wealthyturtle Injection Begin
+    public static final ElementEnum Al = addElement(13, "Al", "Aluminium", postTransitionMetal, solid, stable);//Alloy
+    public static final ElementEnum Si = addElement(14, "Si", "Silicon", semimetallic, solid, stable);//Done
     public static final ElementEnum P = addElement(15, "P", "Phosphorus", nonmetal, solid, stable);//Done
     public static final ElementEnum S = addElement(16, "S", "Sulfur", nonmetal, solid, stable);//Done
     public static final ElementEnum Cl = addElement(17, "Cl", "Chlorine", halogen, gas, stable);//Done
@@ -65,7 +66,7 @@ public class ElementEnum extends MinechemChemicalType
     public static final ElementEnum Ni = addElement(28, "Ni", "Nickel", transitionMetal, solid, stable);//Done
     public static final ElementEnum Cu = addElement(29, "Cu", "Copper", transitionMetal, solid, stable);
     public static final ElementEnum Zn = addElement(30, "Zn", "Zinc", transitionMetal, solid, stable);
-    public static final ElementEnum Ga = addElement(31, "Ga", "Gallium", otherMetal, solid, stable);//Alloy
+    public static final ElementEnum Ga = addElement(31, "Ga", "Gallium", postTransitionMetal, solid, stable);//Alloy
     public static final ElementEnum Ge = addElement(32, "Ge", "Germanium", semimetallic, solid, stable);
     public static final ElementEnum As = addElement(33, "As", "Arsenic", semimetallic, solid, stable);
     public static final ElementEnum Se = addElement(34, "Se", "Selenium", nonmetal, solid, stable);//Alloy
@@ -83,8 +84,8 @@ public class ElementEnum extends MinechemChemicalType
     public static final ElementEnum Pd = addElement(46, "Pd", "Palladium", transitionMetal, solid, stable);//Alloy
     public static final ElementEnum Ag = addElement(47, "Ag", "Silver", transitionMetal, solid, stable);//Done
     public static final ElementEnum Cd = addElement(48, "Cd", "Cadmium", transitionMetal, solid, stable);//Alloy
-    public static final ElementEnum In = addElement(49, "In", "Indium", otherMetal, solid, stable);
-    public static final ElementEnum Sn = addElement(50, "Sn", "Tin", otherMetal, solid, stable);
+    public static final ElementEnum In = addElement(49, "In", "Indium", postTransitionMetal, solid, stable);
+    public static final ElementEnum Sn = addElement(50, "Sn", "Tin", postTransitionMetal, solid, stable);
     public static final ElementEnum Sb = addElement(51, "Sb", "Antimony", semimetallic, solid, stable);
     public static final ElementEnum Te = addElement(52, "Te", "Tellurium", semimetallic, solid, stable);
     public static final ElementEnum I = addElement(53, "I", "Iodine", halogen, solid, stable);
@@ -115,9 +116,9 @@ public class ElementEnum extends MinechemChemicalType
     public static final ElementEnum Pt = addElement(78, "Pt", "Platinum", transitionMetal, solid, stable);//Done
     public static final ElementEnum Au = addElement(79, "Au", "Gold", transitionMetal, solid, stable);//Done
     public static final ElementEnum Hg = addElement(80, "Hg", "Mercury", transitionMetal, liquid, stable);//Done
-    public static final ElementEnum Tl = addElement(81, "Tl", "Thallium", otherMetal, solid, stable);
-    public static final ElementEnum Pb = addElement(82, "Pb", "Lead", otherMetal, solid, stable);//Done
-    public static final ElementEnum Bi = addElement(83, "Bi", "Bismuth", otherMetal, solid, hardlyRadioactive);
+    public static final ElementEnum Tl = addElement(81, "Tl", "Thallium", postTransitionMetal, solid, stable);
+    public static final ElementEnum Pb = addElement(82, "Pb", "Lead", postTransitionMetal, solid, stable);//Done
+    public static final ElementEnum Bi = addElement(83, "Bi", "Bismuth", postTransitionMetal, solid, hardlyRadioactive);
     public static final ElementEnum Po = addElement(84, "Po", "Polonium", semimetallic, solid, radioactive);
     public static final ElementEnum At = addElement(85, "At", "Astantine", halogen, solid, highlyRadioactive);
     public static final ElementEnum Rn = addElement(86, "Rn", "Radon", inertGas, gas, radioactive);
@@ -143,16 +144,15 @@ public class ElementEnum extends MinechemChemicalType
     public static final ElementEnum Sg = addElement(106, "Sg", "Seaborgium", transitionMetal, solid, highlyRadioactive);
     public static final ElementEnum Bh = addElement(107, "Bh", "Bohrium", transitionMetal, solid, highlyRadioactive);
     public static final ElementEnum Hs = addElement(108, "Hs", "Hassium", transitionMetal, solid, highlyRadioactive);
-    public static final ElementEnum Mt = addElement(109, "Mt", "Meitnerium", ElementClassificationEnum.transitionMetal, ChemicalRoomStateEnum.solid, RadiationEnum.extremelyRadioactive);
+    public static final ElementEnum Mt = addElement(109, "Mt", "Meitnerium", transitionMetal, solid, extremelyRadioactive);
     public static final ElementEnum Ds = addElement(110, "Ds", "Darmstadtium", transitionMetal, solid, extremelyRadioactive);
     public static final ElementEnum Rg = addElement(111, "Rg", "Roenthenium", transitionMetal, solid, extremelyRadioactive);
     public static final ElementEnum Cn = addElement(112, "Cn", "Copernicium", transitionMetal, solid, extremelyRadioactive);
-	//Wealthyturtle Injection Begin
-    public static final ElementEnum Nh = addElement(113, "Nh", "Nihonium", otherMetal, solid, extremelyRadioactive);
-	public static final ElementEnum Fl = addElement(114, "Fl", "Flerovium", otherMetal, solid, extremelyRadioactive);
-	public static final ElementEnum Mc = addElement(115, "Mc", "Moscovium", otherMetal, solid, extremelyRadioactive);
-	public static final ElementEnum Lv = addElement(116, "Lv", "Livermorium", otherMetal, solid, extremelyRadioactive);
-	public static final ElementEnum Ts = addElement(117, "Ts", "Tennessine", halogen, solid, extremelyRadioactive);
+    public static final ElementEnum Nh = addElement(113, "Nh", "Nihonium", postTransitionMetal, solid, extremelyRadioactive);
+	public static final ElementEnum Fl = addElement(114, "Fl", "Flerovium", postTransitionMetal, solid, extremelyRadioactive);
+	public static final ElementEnum Mc = addElement(115, "Mc", "Moscovium", postTransitionMetal, solid, extremelyRadioactive);
+	public static final ElementEnum Lv = addElement(116, "Lv", "Livermorium", postTransitionMetal, solid, extremelyRadioactive);
+	public static final ElementEnum Ts = addElement(117, "Ts", "Tennessine", postTransitionMetal, solid, extremelyRadioactive);
 	public static final ElementEnum Og = addElement(118, "Og", "Oganesson", inertGas, solid, extremelyRadioactive);
 	//Wealthyturtle Injection End
 	

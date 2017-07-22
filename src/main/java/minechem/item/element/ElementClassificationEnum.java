@@ -5,9 +5,11 @@ import net.minecraft.util.StatCollector;
 
 public enum ElementClassificationEnum implements IDescriptiveName
 {
-    nonmetal("Non-metal"), inertGas("Inert gas"), halogen("Halogen"), alkaliMetal("Alkali metal"), alkalineEarthMetal("Alkaline earth metal"), semimetallic("Metalloid"), // Yes this is the proper name!
-    otherMetal("Other metal"), transitionMetal("Transition metal"), lanthanide("Lanthanide"), actinide("Actinide");
-
+    //Wealthyturtle Injection Begin
+    nonmetal("Non-Metal"), inertGas("Inert Gas"), halogen("Halogen"), alkaliMetal("Alkali Metal"), alkalineEarthMetal("Alkaline Earth Metal"), semimetallic("Metalloid"), // Yes this is the proper name!
+    postTransitionMetal("Post-Transition Metal"), transitionMetal("Transition Metal"), lanthanide("Lanthanide"), actinide("Actinide");
+    //Wealthyturtle Injection End
+	
     private final String descriptiveName;
 
     ElementClassificationEnum(String descriptiveName)

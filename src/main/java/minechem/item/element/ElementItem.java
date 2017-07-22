@@ -63,7 +63,9 @@ public class ElementItem extends Item
         classificationIndexes.put(ElementClassificationEnum.halogen, 1);
         classificationIndexes.put(ElementClassificationEnum.inertGas, 2);
         classificationIndexes.put(ElementClassificationEnum.semimetallic, 3);
-        classificationIndexes.put(ElementClassificationEnum.otherMetal, 4);
+        //Wealthyturtle Injection Begin
+        classificationIndexes.put(ElementClassificationEnum.postTransitionMetal, 4);
+        //Wealthyturtle Injection End
         classificationIndexes.put(ElementClassificationEnum.alkaliMetal, 5);
         classificationIndexes.put(ElementClassificationEnum.alkalineEarthMetal, 6);
         classificationIndexes.put(ElementClassificationEnum.transitionMetal, 7);

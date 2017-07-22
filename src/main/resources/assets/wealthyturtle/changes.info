@@ -7,11 +7,23 @@ Ln 2944-2946
 minechem.MinechemItemsRegistration.java:
 Ln 71-97
 
+minechem.fluid.FluidElement.java:
+Ln 79-81
+
 minechem.fluid.FluidHelper.java:
 Ln 20-31
 
+minechem.item.element.ElementClassificationEnum.java:
+Ln 8-11
+
 minechem.item.element.ElementEnum.java:
-Ln 150-157, Ln 186-188, Ln 195-197
+Ln 50-157, Ln 186-188, Ln 195-197
+
+minechem.item.element.ElementItem.java:
+Line 66-68
+
+minechem.item.polytool.PolytoolInventoryRender.java:
+Ln 46-48, Ln 62-64
 
 minechem.reference.Reference.java:
 Ln 12-19
@@ -19,8 +31,11 @@ Ln 12-19
 minechem.reference.MetaData.java:
 Ln 15-29
 
+minechem.render.RenderingUtil.java:
+Ln 59-61
+
 minechem.utils.Recipe.java:
 Ln 142-145
 
 en_US.lang:
-Ln 813-831
+Ln 813-834
