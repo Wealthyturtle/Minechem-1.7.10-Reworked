@@ -71,6 +71,10 @@ public class ElementItem extends Item
         classificationIndexes.put(ElementClassificationEnum.transitionMetal, 7);
         classificationIndexes.put(ElementClassificationEnum.lanthanide, 8);
         classificationIndexes.put(ElementClassificationEnum.actinide, 9);
+        //Wealthyturtle Injection Begin
+        classificationIndexes.put(ElementClassificationEnum.superActinide, 10);
+        classificationIndexes.put(ElementClassificationEnum.unknown, 11);
+        //Wealthyturtle Injection End
         classificationIndexes.put(ChemicalRoomStateEnum.gas, 1);
         classificationIndexes.put(ChemicalRoomStateEnum.solid, 17);
         classificationIndexes.put(ChemicalRoomStateEnum.liquid, 33);

@@ -41,6 +41,9 @@ public class PolytoolInventoryRender implements IItemRenderer
             case actinide:
             case halogen:
             case lanthanide:
+            //Wealthyturtle Injection Begin
+            case superActinide:
+            //Wealthyturtle Injection End
             case nonmetal:
                 return 1.0F;
             //Wealthyturtle Injection Begin
@@ -61,6 +64,7 @@ public class PolytoolInventoryRender implements IItemRenderer
             case inertGas:
             //Wealthyturtle Injection Begin
             case postTransitionMetal:
+            case superActinide:
             //Wealthyturtle Injection End
             case semimetallic:
                 return 1.0F;
@@ -83,6 +87,10 @@ public class PolytoolInventoryRender implements IItemRenderer
                 return 1.0F;
             case semimetallic:
                 return 0.5F;
+            //Wealthyturtle Injection Begin
+            case superActinide:
+            	return 0.5F;
+            //Wealthyturtle Injection End
             default:
                 return 0F;
         }

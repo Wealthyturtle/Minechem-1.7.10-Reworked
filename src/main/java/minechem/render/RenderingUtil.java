@@ -57,6 +57,12 @@ public final class RenderingUtil
                 GL11.glColor3f(1.0F, 0.5F, 0.0F);
                 break;
             //Wealthyturtle Injection Begin
+            case superActinide:
+                GL11.glColor3f(0.5F, 0.7F, 0.7F);
+                break;
+            case unknown:
+                GL11.glColor3f(0.2F, 0.3F, 0.3F);
+                break;
             case postTransitionMetal:
             //Wealthyturtle Injection End
                 GL11.glColor3f(0.5F, 1.0F, 0.0F);

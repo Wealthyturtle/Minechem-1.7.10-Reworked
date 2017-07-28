@@ -19,6 +19,8 @@ import static minechem.item.element.ElementClassificationEnum.nonmetal;
 import static minechem.item.element.ElementClassificationEnum.postTransitionMetal;
 import static minechem.item.element.ElementClassificationEnum.semimetallic;
 import static minechem.item.element.ElementClassificationEnum.transitionMetal;
+import static minechem.item.element.ElementClassificationEnum.superActinide;
+import static minechem.item.element.ElementClassificationEnum.unknown;
 import minechem.radiation.RadiationEnum;
 import static minechem.radiation.RadiationEnum.extremelyRadioactive;
 import static minechem.radiation.RadiationEnum.hardlyRadioactive;
@@ -148,12 +150,79 @@ public class ElementEnum extends MinechemChemicalType
     public static final ElementEnum Ds = addElement(110, "Ds", "Darmstadtium", transitionMetal, solid, extremelyRadioactive);
     public static final ElementEnum Rg = addElement(111, "Rg", "Roenthenium", transitionMetal, solid, extremelyRadioactive);
     public static final ElementEnum Cn = addElement(112, "Cn", "Copernicium", transitionMetal, solid, extremelyRadioactive);
+    
     public static final ElementEnum Nh = addElement(113, "Nh", "Nihonium", postTransitionMetal, solid, extremelyRadioactive);
 	public static final ElementEnum Fl = addElement(114, "Fl", "Flerovium", postTransitionMetal, solid, extremelyRadioactive);
 	public static final ElementEnum Mc = addElement(115, "Mc", "Moscovium", postTransitionMetal, solid, extremelyRadioactive);
 	public static final ElementEnum Lv = addElement(116, "Lv", "Livermorium", postTransitionMetal, solid, extremelyRadioactive);
 	public static final ElementEnum Ts = addElement(117, "Ts", "Tennessine", postTransitionMetal, solid, extremelyRadioactive);
 	public static final ElementEnum Og = addElement(118, "Og", "Oganesson", inertGas, solid, extremelyRadioactive);
+	
+	public static final ElementEnum Uue = addElement(119, "Uue", "Ununennium", alkaliMetal, solid, extremelyRadioactive);
+	public static final ElementEnum Ubn = addElement(120, "Ubn", "Unbinilium", alkalineEarthMetal, solid, extremelyRadioactive);
+	
+	public static final ElementEnum Ubu = addElement(121, "Ubu", "Unbiunium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Ubb = addElement(122, "Ubb", "Unbibium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Ubt = addElement(123, "Ubt", "Unbitrium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Ubq = addElement(124, "Ubq", "Unbiquadium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Ubp = addElement(125, "Ubp", "Unbipentium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Ubh = addElement(126, "Ubh", "Unbihexium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Ubs = addElement(127, "Ubs", "Unbiseptium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Ubo = addElement(128, "Ubo", "Unbioctium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Ube = addElement(129, "Ube", "Unbiennium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Utn = addElement(130, "Utn", "Untrinilium", superActinide, solid, extremelyRadioactive);
+	
+	public static final ElementEnum Utu = addElement(131, "Utu", "Untriunium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Utb = addElement(132, "Utb", "Untribium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Utt = addElement(133, "Utt", "Untritrium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Utq = addElement(134, "Utq", "Untriquadium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Utp = addElement(135, "Utp", "Untripentium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Uth = addElement(136, "Uth", "Untrihexium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Uts = addElement(137, "Uts", "Untriseptium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Uto = addElement(138, "Uto", "Untrioctium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Ute = addElement(139, "Ute", "Untriennium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Uqn = addElement(140, "Uqn", "Unquadnilium", superActinide, solid, extremelyRadioactive);
+	
+	public static final ElementEnum Uqu = addElement(141, "Uqu", "Unquadunium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Uqb = addElement(142, "Uqb", "Unquadbium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Uqt = addElement(143, "Uqt", "Unquadtrium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Uqq = addElement(144, "Uqq", "Unquadquadium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Uqp = addElement(145, "Uqp", "Unquadpentium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Uqh = addElement(146, "Uqh", "Unquadhexium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Uqs = addElement(147, "Uqs", "Unquadseptium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Uqo = addElement(148, "Uqo", "Unquadoctium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Uqe = addElement(149, "Uqe", "Unquadennium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Upn = addElement(150, "Upn", "Unpentnilium", superActinide, solid, extremelyRadioactive);
+	
+	public static final ElementEnum Upu = addElement(151, "Upu", "Unpentunium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Upb = addElement(152, "Upb", "Unpentbium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Upt = addElement(153, "Upt", "Unpenttrium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Upq = addElement(154, "Upq", "Unpentquadium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Upp = addElement(155, "Upp", "Unpentpentium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Uph = addElement(156, "Uph", "Unpenthexium", superActinide, solid, extremelyRadioactive);
+	public static final ElementEnum Ups = addElement(157, "Ups", "Unpentseptium", superActinide, solid, extremelyRadioactive);
+	
+	public static final ElementEnum Upo = addElement(158, "Upo", "Unpentoctium", transitionMetal, solid, extremelyRadioactive);
+	public static final ElementEnum Upe = addElement(159, "Upe", "Unpentennium", transitionMetal, solid, extremelyRadioactive);
+	public static final ElementEnum Uhn = addElement(160, "Uhn", "Unhexnilium", transitionMetal, solid, extremelyRadioactive);
+	
+	public static final ElementEnum Uhu = addElement(161, "Uhu", "Unhexunium", transitionMetal, solid, extremelyRadioactive);
+	public static final ElementEnum Uhb = addElement(162, "Uhb", "Unhexbium", transitionMetal, solid, extremelyRadioactive);
+	public static final ElementEnum Uht = addElement(163, "Uht", "Unhextrium", transitionMetal, solid, extremelyRadioactive);
+	public static final ElementEnum Uhq = addElement(164, "Uhq", "Unhexquadium", transitionMetal, solid, extremelyRadioactive);
+	public static final ElementEnum Uhp = addElement(165, "Uhp", "Unhexpentium", transitionMetal, solid, extremelyRadioactive);
+	public static final ElementEnum Uhh = addElement(166, "Uhh", "Unhexhexium", transitionMetal, solid, extremelyRadioactive);
+	
+	public static final ElementEnum Uhs = addElement(167, "Uhs", "Unhexseptium", postTransitionMetal, solid, extremelyRadioactive);
+	public static final ElementEnum Uho = addElement(168, "Uho", "Unhexoctium", postTransitionMetal, solid, extremelyRadioactive);
+	public static final ElementEnum Uhe = addElement(169, "Uhe", "Unhexennium", postTransitionMetal, solid, extremelyRadioactive);
+	public static final ElementEnum Usn = addElement(170, "Usn", "Unseptnilium", postTransitionMetal, solid, extremelyRadioactive);
+	
+	public static final ElementEnum Usu = addElement(171, "Usu", "Unseptunium", postTransitionMetal, solid, extremelyRadioactive);
+	
+	public static final ElementEnum Usb = addElement(172, "Usb", "Unseptbium", inertGas, solid, extremelyRadioactive);
+	
+	public static final ElementEnum Ust = addElement(173, "Ust", "Unseptnilium", unknown, solid, extremelyRadioactive);
 	//Wealthyturtle Injection End
 	
     // Descriptive name, in en_US. Should not be used; instead, use a

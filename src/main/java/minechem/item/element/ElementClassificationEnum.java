@@ -7,7 +7,7 @@ public enum ElementClassificationEnum implements IDescriptiveName
 {
     //Wealthyturtle Injection Begin
     nonmetal("Non-Metal"), inertGas("Inert Gas"), halogen("Halogen"), alkaliMetal("Alkali Metal"), alkalineEarthMetal("Alkaline Earth Metal"), semimetallic("Metalloid"), // Yes this is the proper name!
-    postTransitionMetal("Post-Transition Metal"), transitionMetal("Transition Metal"), lanthanide("Lanthanide"), actinide("Actinide");
+    postTransitionMetal("Post-Transition Metal"), transitionMetal("Transition Metal"), lanthanide("Lanthanide"), actinide("Actinide"), superActinide("Superactinide"), unknown("Unknown");
     //Wealthyturtle Injection End
 	
     private final String descriptiveName;

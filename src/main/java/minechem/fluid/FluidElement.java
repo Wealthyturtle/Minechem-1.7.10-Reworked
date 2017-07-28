@@ -86,6 +86,12 @@ public class FluidElement extends MinechemFluid
                 green = 1;
                 blue = 0.5F;
                 break;
+            //Wealthyturtle Injection Begin
+            case superActinide:
+                green = 1;
+                blue = 0.5F;
+                break;
+            //Wealthyturtle Injection End
             case transitionMetal:
                 green = 0.5F;
                 blue = 1;
