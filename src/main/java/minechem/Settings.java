@@ -64,10 +64,12 @@ public class Settings
     public static int energyPacketSize = 100;
 
     // Power base storage values
-    public static int maxSynthesizerStorage = 100000;
-    public static int maxDecomposerStorage = 10000;
-    public static int maxFissionStorage = 100000;
-    public static int maxFusionStorage = 100000;
+    //Wealthyturtle Injection Begin
+    public static int maxSynthesizerStorage = 100000000;
+    public static int maxDecomposerStorage = 100000000;
+    public static int maxFissionStorage = 100000000;
+    public static int maxFusionStorage = 100000000;
+    //Wealthyturtle Injection End
 
     // Chemical Explosion
     public static boolean reactionItemMeetFluid = true;
